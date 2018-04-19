@@ -4,9 +4,6 @@
     <title>Avance</title>
   </head>
   <body>
-    <div class="jumbotron header-background" style="margin-bottom: 0px;">
-      <h1 style="text-align:center">Avance</h1>
-    </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-target">
         <span class="navbar-toggler-icon"></span>
@@ -29,7 +26,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/explore">Explore</a>
+            <a class="nav-link" href="/">Explore</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/users/register">Register</a>
@@ -40,13 +37,50 @@
         </ul>
     </div>
     </nav>
+    <!-- Progress Bar -->
+    <div class="container">
+      <ul class="progressbar">
+        <li class="active">Explore</li>
+        <li class="active">Project</li>
+        <li>Image</li>
+      </ul>
+    </div>
     <div class="container"><br>
-      <hr>
-      <!-- Code here -->
-      <h1>Other User Project</h1>
-      <h5>Written by Avance</h5>
-      <p>This is some story text we've left here hee hee</p>
-      <hr/><a class="btn btn-default" href="/stories/edit">Edit</a><a class="btn btn-danger delete-article" href="#">Delete</a>
+      <h1>Anime Girls</h1>
+      <div>
+        <p class="project-desc">Description</p>
+          <p>I am trying to create more anime art so here is my project</p>
+        <br/><p class="by-line">by Jane Lim</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-container left">
+          <div class="content">
+            <div class="projectimage">
+              <a href="/explore/5/5/5"><img src="/css/no-background-clouds-girl.png" alt="First image of this project" ></a>
+            </div>
+              <div class="projectimage-title">
+                  <p>First Sketch of Anime girl </p>
+                  <p>Uploaded 19/04/2017</p>
+              </div>
+          </div>
+
+        </div>
+          <div class="timeline-container right">
+              <div class="content">
+                  <div class="projectimage">
+                      <a href="/users/5/5/5"><img src="/css/clouds_anime_girl.jpg" alt="Second image of this project"></a>
+                  </div>
+                  <div class="projectimage-title">
+                      <p>Adding background</p>
+                      <p>Uploaded 23/07/2017</p>
+                  </div>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
       <footer>
         <p>Copyright &copy; 2018</p>
       </footer>
